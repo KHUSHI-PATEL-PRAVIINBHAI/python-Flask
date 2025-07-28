@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 26px;
+  color: #2d3436;
+}
+
+.upload-box {
+  text-align: center;
+  padding: 20px;
+  border: 2px dashed #aaa;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.upload-box input {
+  margin-top: 10px;
+}
+
+.upload-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0984e3;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upload-box button:hover {
+  background-color: #74b9ff;
+}
+
+.status-box {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #dfe6e9;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2d3436;
+  animation: fadeIn 1s ease;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
